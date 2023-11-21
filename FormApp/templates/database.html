@@ -25,9 +25,9 @@
       <tbody>
         {% for medico in medicos %}
         <tr>
-          <th>{% medico.nombre %}</th>
-          <th>{% medico.apellido %}</th>
-          <th>{% medico.especialidad %}</th>
+          <th>{{ medico.nombre }}</th>
+          <th>{{ medico.apellido }}</th>
+          <th>{{ medico.especialidad }}</th>
         </tr>
         {% endfor %}
       </tbody>
